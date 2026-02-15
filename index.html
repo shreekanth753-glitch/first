@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Block Drop</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="game-wrap">
+      <h1>Mini Block Drop</h1>
+      <p>Arrow keys: move/rotate · Down: soft drop · Space: hard drop</p>
+      <div class="panel">
+        <canvas id="board" width="300" height="600" aria-label="Game board"></canvas>
+        <aside class="hud">
+          <div><strong>Score:</strong> <span id="score">0</span></div>
+          <div><strong>Lines:</strong> <span id="lines">0</span></div>
+          <div><strong>Level:</strong> <span id="level">1</span></div>
+          <button id="restart">Restart</button>
+        </aside>
+      </div>
+    </main>
+    <script src="game.js"></script>
+  </body>
+</html>

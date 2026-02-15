@@ -1,0 +1,54 @@
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #0f1220;
+  color: #f1f5ff;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+
+.game-wrap {
+  text-align: center;
+}
+
+.panel {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+canvas {
+  border: 3px solid #8ca3ff;
+  background: #090c17;
+  box-shadow: 0 0 20px rgb(0 0 0 / 30%);
+}
+
+.hud {
+  display: grid;
+  gap: 0.75rem;
+  text-align: left;
+  background: #1b2140;
+  border: 1px solid #2f3a72;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  min-width: 140px;
+}
+
+button {
+  background: #7aa2ff;
+  color: #051036;
+  border: 0;
+  padding: 0.5rem 0.7rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  font-weight: 700;
+}
